@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-
+    
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 }
 
 .container{
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: auto;
 }
