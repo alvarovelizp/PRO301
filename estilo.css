@@ -24,6 +24,6 @@ body{
 }
 .menu li a:hover{
     background-color: #ff6a00;
-    
+    font-size: 10px;
 }
 
