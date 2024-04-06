@@ -1,0 +1,81 @@
+body{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+    margin-right: 100px;
+
+}
+nav a{
+    font-weight: 700;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: brown;
+}
+
+@media (max-wwidth: 700px) {
+    header{
+        flex-direction: column;
+    }
+}
+nav{
+    padding: 10px;
+}
+/****MAIN***/
+
+.titulo-section{
+    text-align: center;
+    color: red;
+    margin: 20px;
+    font-size: 35px;
+}
+
+.copy{
+    text-align: center;
+    color: blueviolet;
+    margin: 20px;
+    
+}
+.beneficios{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.beneficio{
+    font-size: 20px;
+    width: 10cm;
+    height: 10cm;
+    background-size: cover;
+    background-position: center;
+    color: #08b2e6 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(logo.png);
+    height: 150px;
+
+}
+
+.contenedor {
+    text-align: center;
+}
